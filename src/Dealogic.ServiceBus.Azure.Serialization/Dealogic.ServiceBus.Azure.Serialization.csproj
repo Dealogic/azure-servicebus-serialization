@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <Import Project="..\..\packages\Dealogic.DBE.MSBuild.Authenticode.1.0.1\build\Dealogic.DBE.MSBuild.Authenticode.targets" Condition="Exists('..\..\packages\Dealogic.DBE.MSBuild.Authenticode.1.0.1\build\Dealogic.DBE.MSBuild.Authenticode.targets')" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
