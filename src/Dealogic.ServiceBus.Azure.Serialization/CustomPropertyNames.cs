@@ -3,7 +3,7 @@
     /// <summary>
     /// Custom user property names
     /// </summary>
-    public class CustomPropertyNames
+    public static class CustomPropertyNames
     {
         /// <summary>
         /// The message type user property name
