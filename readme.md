@@ -5,6 +5,10 @@ When serializing messages the `ContentType` property will be populated with the 
 On deserialization the deserializer has to be registered with the reader with the correct content type to be able to deserialize.
 You have to know the type of the body to read it back, the serializer does not track it.
 
+## Build status
+
+![build status](https://dealogic.visualstudio.com/DefaultCollection/_apis/public/build/definitions/4cd19643-db3a-4dcc-b481-76a7800dd64d/13165/badge)
+
 ## Content
 
 * [Serializing messages](#serializing-messages)
