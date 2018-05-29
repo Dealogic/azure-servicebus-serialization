@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <Import Project="..\..\packages\Dealogic.DBE.MSBuild.Authenticode.1.0.1\build\Dealogic.DBE.MSBuild.Authenticode.targets" Condition="Exists('..\..\packages\Dealogic.DBE.MSBuild.Authenticode.1.0.1\build\Dealogic.DBE.MSBuild.Authenticode.targets')" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
@@ -25,7 +24,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dealogic.DBE.MSBuild.Authenticode" Version="1.0.1" />
     <PackageReference Include="microsoft.azure.servicebus" Version="2.0.0" />
     <PackageReference Include="newtonsoft.json.bson" Version="1.0.1" />
     <PackageReference Include="System.ValueTuple" Version="4.4.0" />
