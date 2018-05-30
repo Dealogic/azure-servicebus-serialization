@@ -7,6 +7,8 @@ You have to know the type of the body to read it back, the serializer does not t
 
 ## Build status
 
+NuGet download [Link](https://www.nuget.org/packages/Dealogic.ServiceBus.Azure.Serialization/)
+
 ![build status](https://dealogic.visualstudio.com/DefaultCollection/_apis/public/build/definitions/4cd19643-db3a-4dcc-b481-76a7800dd64d/13165/badge)
 
 ## Content
