@@ -7,9 +7,9 @@ You have to know the type of the body to read it back, the serializer does not t
 
 ## Build status
 
-NuGet download [Link](https://www.nuget.org/packages/Dealogic.ServiceBus.Azure.Serialization/)
-
 ![build status](https://dealogic.visualstudio.com/DefaultCollection/_apis/public/build/definitions/4cd19643-db3a-4dcc-b481-76a7800dd64d/13165/badge)
+
+[![NuGet Badge](https://buildstats.info/nuget/dealogic.servicebus.azure.serialization)](https://www.nuget.org/packages/dealogic.servicebus.azure.serialization/)
 
 ## Content
 
@@ -59,13 +59,13 @@ The name of the event source can be found in the `Dealogic.ServiceBus.Azure.Seri
 - On serialization a user property called **ContentEncoding** will be set if not already exists
 - For deserializing the message a deserializer has to be registered in the BodyReader with the specified contenttype
 - By default these deserializers are registered:
-  1. BsonBodyDeserializer (application/bson) **(default serializer)**
-  2. BinaryDeserializer (application/octet-stream)
-  3. GZipBsonDeserializer (application/bson and gzip)
-  4. XmlBodyDeserializer (application/xml)
-  5. GZipXmlBodyDeserializer (application/xml and gzip)
-  6. JsonBodyDeserializer (application/json)
-  7. GZipJsonBodyDeserializer (application/json and gzip)
+  - BsonBodyDeserializer (application/bson) **(default serializer)**
+  - BinaryDeserializer (application/octet-stream)
+  - GZipBsonDeserializer (application/bson and gzip)
+  - XmlBodyDeserializer (application/xml)
+  - GZipXmlBodyDeserializer (application/xml and gzip)
+  - JsonBodyDeserializer (application/json)
+  - GZipJsonBodyDeserializer (application/json and gzip)
 
 ## Contribution
 
